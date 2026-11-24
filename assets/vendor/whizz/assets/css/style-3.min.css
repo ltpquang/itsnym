@@ -1,0 +1,23 @@
+.single-post.no_vc_composer{
+	padding-bottom:80px;
+}
+.single-post.no_vc_composer .comments-form,
+.single-post.no_vc_composer .comment-reply-title+form{
+	margin-bottom:0;
+}
+.single-post.no_vc_composer .title{
+	color: #000000;
+	max-width:100%;
+	text-align: center;
+    padding: 30px 0;
+}
+.header_top_bg  .right-menu #topmenu > ul > li > a{
+    margin: 0 18px;
+	}
+.post-details .post-banner {
+    min-height: 500px;
+}
+.post-details .post-banner .main-top-content {
+    position: absolute;
+    top: calc(50% + 10px);
+}

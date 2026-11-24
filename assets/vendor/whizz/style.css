@@ -1,0 +1,100 @@
+/*
+Theme Name: Whizz
+Theme URI: http://whizz.foxthemes.me/
+Author: FOXTHEMES
+Author URI: https://themeforest.net/user/fox-themes
+Description: A stunning visual experience for minimal loving creative. This template is a responsive and retina-ready WordPress theme with grid system layout. It is optimized for mobile touch and swipe.
+Version: 2.4.2
+Tags: one-column, two-columns, right-sidebar, custom-menu, post-formats, sticky-post
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: whizz
+*/
+.page-id-4546 .vc_row[data-vc-full-width].vc_hidden{opacity:1;}
+.select-for-hovers h5{
+    display: inline-block;
+    padding: 2px 8px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 28px;
+    font-family: "ArcaMajora3 Bold",sans-serif;
+    color: #1B1B1B;
+    text-transform: uppercase;
+    margin: auto;
+    letter-spacing: 1px;
+
+}
+
+.select-for-hovers .hover > span{
+    position: relative;
+    padding: 3px 20px 1px 10px;
+    display: inline-block;
+    font-weight: 400;
+    border:1px solid #1B1B1B;
+    text-decoration: none;
+    min-width: 200px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 23px;
+    font-family: "ArcaMajora3 Bold",sans-serif;
+    color: #1B1B1B;
+    text-transform: uppercase;
+    margin: auto;
+    letter-spacing: 1px;
+}
+.select-for-hovers .hover > span::after{
+    content: "\f107";
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 5px;
+    color: #1B1B1B;
+}
+.select-for-hovers{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.select-for-hovers .content{
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+.select-for-hovers .hover{
+    display: inline-block;
+    position: relative;
+}
+.select-for-hovers .hover .list{
+    text-align: left;
+    position: absolute;
+    background-color: #fff;
+    margin-left: 0;
+    z-index: 31;
+    width: 100%;
+    border: 1px solid #1B1B1B;
+    display: none;
+}
+
+.select-for-hovers .hover .list li{
+    list-style: none;
+    font-weight: 400;
+    padding: 1px 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all 350ms ease;
+    font-size: 11px;
+    line-height: 28px;
+    font-family: "ArcaMajora3 Bold",sans-serif;
+    color: #1B1B1B;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+.select-for-hovers .hover .list li:hover{
+    background-color: rgba(0,0,0,.05);
+}
